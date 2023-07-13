@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio - Bog'lanish</title>
+        <link rel="stylesheet" href="/portfoliocss/shared.css">
+        <link rel="stylesheet" href="/portfoliocss/contact.css">
+
+    </head>
+</html>
+
+<body>
+    <!-- header qismi   -->  <!-- HTML elementi kirish mazmunini -->
+    <header class="main-header">
+    <div class="container">
+            <div class="main-header__brand">  <!-- LOGOTIP -->
+                <a href="/portfolio.html">      <!-- Ilovani yaratkanda html ni ochip berish -->
+                <img src="/Image/sr-1.png" alt="Logo"></a>     
+            </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation__items ">
+                <li class="main-navigation__item active"> <!-- active qoyilgan bosh sahifaga css -->
+                    <a href="/portfolio.html">Bosh sahifa</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Men haqimda</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Xizmatlar</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Mijozlar</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#">Vlog</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="/contact.html">Bog'lanish</a>
+                </li>
+            </ul>
+          
+        </nav>
+    </div>  
+</header> 
+  
+    <!-- /header qismi   -->
+    
+    <div class="container">
+        <section class="contact">
+            <div class="section_title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea rows="10" placeholder="Xabaringizni kiriting" name="message"></textarea>  <!-- rows bir vaqtning ozida nechta liniya korsatishi -->
+                <div class="half_flex">
+                    <div class="contact_firstname"> <!-- divga qoyvotkanimiz ulani boshqarish uchun  -->
+                        <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                    </div>
+                    <div class="contact_email">
+                        <input type="email" placeholder="Emalingizni kiriting" name="email">
+                    </div>
+                </div>
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button class="button contact_send" type="submit">Xabar jonatish</button>
+
+            </form>
+        </section>
+    </div>
+
+      <!-- Footer section -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer_brand">
+                <img src="/Image/sr-1.png" alt="Logo">
+            </div>
+            <nav class="footer_navigation">
+                <ul class="footer_navigation_items">
+                    <li class="footer_navigation_item">
+                        <a href="#">Bosh sahifa</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Vlog</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer_socials">
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+             <p class="footer_text">
+                Sayt web sahifasi 2023 by  Sardor Rajapov
+             </p>
+        </div>
+    </footer>
+    <!-- /Footer section -->
+
+</body>

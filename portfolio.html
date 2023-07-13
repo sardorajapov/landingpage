@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- web sahifamizni responsive bolish uchun yordam beradi mobil versiyada ochilganda -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- fonts bervommiz -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- fonts bervommiz -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> <!-- fonts bervommiz -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/portfoliocss/portfolio.css">
+        <link rel="stylesheet" href="/portfoliocss/shared.css">
+    </head>
+</html>
+
+<body>
+    <!-- header qismi   -->  <!-- HTML elementi kirish mazmunini -->
+    <header class="main-header">
+    <div class="container">
+            <div class="main-header__brand">  <!-- LOGOTIP -->
+                <a href="/portfolio.html">      <!-- Ilovani yaratkanda html ni ochip berish -->
+                <img src="/Image/sr-1.png" alt="Logo"></a>     
+            </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation__items ">
+                <li class="main-navigation__item "> 
+                    <a href="#">Bosh sahifa</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#main_section">Men haqimda</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#servis">Xizmatlar</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#clients">Mijozlar</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="#blog_item">Vlog</a>
+                </li>
+                <li class="main-navigation__item active"> <!-- active qoyilgan bosh sahifaga css -->
+                    <a href="/contact.html">Bog'lanish</a>
+                </li>
+            </ul>
+        </nav>
+    </div>  
+</header> 
+  
+    <!-- /header qismi   -->
+
+    <!-- Main section -->  <!-- Sahifada bitta <main> element bo'lishi kerak -->
+        <div class="main_banner">
+        <div class="container">
+        <section id="main_section" class="main_section">
+            <div class="main_section_info">
+               <h4 class="main_section_welcome to_uppercase ">Salom hammaga!</h4>
+               <h1 class="main_section_introduction to_uppercase">I'm Sardor</h1>
+               <h3 class="main_section_positon to_uppercase">Web design (& Dasturchi)</h3>
+               <div class="main_section_social">
+                <a href="https://t.me/arrogantt" target="_blank"> <!-- target blank  yangi vkladkada ochilishi uchun yozilgan -->
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank"> <!-- target blank  yangi vkladkada ochilishi uchun yozilgan -->
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/?hl=ru&ysclid=lj9taofbdi702606779" target="_blank"> <!-- target blank  yangi vkladkada ochilishi uchun yozilgan -->
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+               </div>
+               <button type="button" class="button main_section_action to_uppercase">
+                   Mening ishlarim
+               </button>
+            </div>
+            <div class="main_section_image">
+               <img src="/Image/me1.png" alt="My image">
+            </div>
+           </section>
+           <div class="clearfix"></div> <!-- /* suzib chiqmasligi uchun  */ -->
+      </div>
+      </div>
+     <!-- /Main section --> 
+     
+     <!-- Statistic -->
+      <div class="container">
+        <section id="statistic" class="statistic">
+            <div class="statistic_item">
+                <h3 class="statistic_number">
+                    12k+
+                </h3>
+                <p class="statistic_title">Hursand mijozlar</p>
+            </div>
+            <div class="statistic_item">
+                <h3 class="statistic_number">
+                    10k+
+                </h3>
+                <p class="statistic_title">Yordam</p>
+            </div>
+            <div class="statistic_item">
+                <h3 class="statistic_number">
+                    9/10
+                </h3>
+                <p class="statistic_title">O'rtacha reyting</p>
+            </div>
+            
+        </section>
+      </div>
+     <!-- About me section --> 
+   <div class="container">
+    <section id="about_me" class="about_me">
+        <div class="about_me_image">
+            <img src="/Image/aboutme3.png" alt="About me main_section_image">
+        </div>
+        <div class="about_me_info">
+            <h5 class="section_subtitle">
+                Men haqimda
+                <span class="blur_line"></span> <!-- Men haqimda yonida hira belgi -->
+            </h5>
+            <h3 class="section_title">
+                Web design (dasturchi)
+            </h3>
+            <p class="about_me_description">
+                Mening ismim Sardor va men 29 yoshdaman 
+            </p>
+            <button type="button" class="button to_uppercase about_me_action">
+                CV ko'chirib olish
+            </button>
+        </div>
+     </section>
+     <div class="clearfix"></div>
+   </div>
+    <!-- /About me section -->
+
+    <!-- Servis section -->
+  <div class="container">
+    <section id="servis" class="servis"> 
+        <h5 class="section_subtitle">   <!-- Mening hizmatlaarim -->
+            Mening hizmatlarim 
+            <span class="blur_line"> <!-- Mening hizmatlarim yoniga blur rang bervommiz --> 
+            </span>
+        </h5>
+        <h2 class="section_title"> <!-- Kardga class bervommiz -->
+            Men taklif <br>
+            qiladigan hizmatlar
+        </h2>
+        <div class="servis_cards">
+        <div class="servis_card">
+            <img class="servis_card_icon" src="/Image/icon1monitor.png" alt="Servis 1"> <!-- Iconka qoyvommiza  -->
+            <h5 class="servis_card_title">Web dasturlash</h5>
+            <p class="servis_card_description">   
+              Savollarga javoblar toliq va web saytni yaratish  
+            </p>
+            <a href="#" class="servis_card_link">
+                Ko'proq
+            </a>
+        </div>
+        <div class="servis_card">
+            <img class="servis_card_icon" src="/Image/icon3haker.png" alt="Servis 1"> <!-- Iconka qoyvommiza  -->
+            <h5 class="servis_card_title">Web dasturlash</h5>
+            <p class="servis_card_description">   
+              Savollarga javoblar toliq va web saytni yaratish  
+            </p>
+            <a href="#" class="servis_card_link">
+                Ko'proq
+            </a>
+        </div>
+        <div class="servis_card">
+            <img class="servis_card_icon" src="/Image/icon2lampa.png" alt="Servis 1"> <!-- Iconka qoyvommiza  -->
+            <h5 class="servis_card_title">Web dasturlash</h5>
+            <p class="servis_card_description">   
+              Savollarga javoblar toliq va web saytni yaratish  
+            </p>
+            <a href="#" class="servis_card_link">
+                Ko'proq
+            </a>
+        </div>
+    </div>
+    </section>
+  </div>
+    <!-- /Servis section -->
+
+    <!-- Clienst section -->
+   <div class="container">
+    <section id="clients" class="clients">
+        <h5 class="section_subtitle">
+            Mening mijozlarim
+            <span class="blur_line"></span>
+        </h5>
+        <h2 class="section_title">
+            Hurmatli mijozlar <br>
+            men haqimda
+        </h2>
+        <div class="clients_item">
+            <div class="clients_item__image">
+                <img src="/Image/me5.png" alt="Client image">
+            </div>
+            <div class="client_item__info"> <!-- Klient kimligi ismi--> 
+                <h3 class="client_item__name">
+                    Aziza Azizovna
+                </h3>
+                <p class="client_item__position">   <!-- Sohasi klienti -->
+                    Web design(katta )
+                </p>
+                <p class="client_item__review">   <!-- Klient otzivi -->
+                    Juda zor ish qilingan rekomendatsiya beraman
+                </p>
+                <div class="client_item__rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+               
+                </div>
+            </div>
+           
+        </div>
+        </section>
+        <div class="clearfix"></div>
+   </div>
+    <!-- /Clienst section -->
+
+    <!-- Portfolio sectio -->
+    <div class="container">
+        <section id="portfolio" class="portfolio">
+            <div class="section_subtitle">
+                Mening ishlarim 
+                <span class="blur_line"></span>
+            </div>
+            <div class="section_title">
+                Mening oxirgi <br>
+                ishlarim ko'ring
+            </div>
+            <ul class="portfolio_filters">
+                <li class="active">Hammasi</li>
+                <li>Mashxurlari</li>
+                <li>Oxirgilari</li>
+            </ul>
+            <div class="portfolio_items">
+                <div class="portfolio_item portfolio_item_1">
+                    <img src="/Image/44.png" alt="Portfolio image 1" class="portfolio_item_image">
+                    <div class="portfolio_item_overlay"></div>
+                    <div class="portfolio_item_info">
+                        <h4>
+                            <a href="#">Portfolio item 1</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio_item portfolio_item_2">
+                    <img src="/Image/66.png" alt="Portfolio image 2" class="portfolio_item_image">
+                    <div class="portfolio_item_overlay"></div>
+                    <div class="portfolio_item_info">
+                        <h4>
+                            <a href="#">Portfolio item 2</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio_item portfolio_item_3">
+                    <img src="/Image/33.png" alt="Portfolio image 3" class="portfolio_item_image">
+                    <div class="portfolio_item_overlay"></div>
+                    <div class="portfolio_item_info">
+                        <h4>
+                            <a href="#">Portfolio item 3</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio_item portfolio_item_4">
+                    <img src="/Image/55.png" alt="Portfolio image 4" class="portfolio_item_image">
+                    <div class="portfolio_item_overlay"></div>
+                    <div class="portfolio_item_info">
+                        <h4>
+                            <a href="#">Portfolio item 4</a>
+                        </h4>
+                        <p>
+                            Ishim haqida
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </section>
+    </div>
+    <!-- Portfolio sectio -->
+
+    <!-- Blog section -->
+   <div class="container">
+    <section id="blog" class="blog">
+        <div class="section_subtitle">
+            Mening blogim
+            <span class="blur_line"></span>
+        </div>
+        <div class="section_title">
+            Oxirgi maqolalarim
+        </div>
+        <div class="blog_items">
+            <div class="blog_item">
+                <div class="blog_item_image"> <!-- card rasm joylavommiza -->
+                    <img src="/Image/partners/1.png" alt=" Blog 1 image">
+                </div>
+                <div class="blog_item_info">
+                    <div class="blog_item_main_info">
+                        <span class="blog_item_author"> <!-- Avtor kimligi -->
+                            <i class="fa fa-user"></i> <!-- admin ikonka  -->
+                            Admin post
+                        </span>
+                        <span class="blog_item_date"> <!-- Sana joylavommiz -->
+                            <i class="fa fa-calendar"></i> <!-- kalendar ikonka -->
+                            June 28,2023
+                        </span>
+                    </div>
+                        <h5 class="blog_item_title"> <!-- Maqolasi -->
+                            Mening maqolam
+                        </h5>
+                        <p class="blog_item_description"> <!-- Paragrafi -->
+                            Lorem ipsum dolor sit amet consectetur ad
+                        </p>
+                        <a class="blog_item_learn_more">
+                            Ko'proq o'qish
+                        </a>
+                </div>
+            </div>
+            <div class="blog_item">
+                <div class="blog_item_image"> <!-- card rasm joylavommiza -->
+                    <img src="/Image/partners/2.png" alt=" Blog 1 image">
+                </div>
+                <div class="blog_item_info">
+                    <div class="blog_item_main_info">
+                        <span class="blog_item_author"> <!-- Avtor kimligi -->
+                            <i class="fa fa-user"></i> <!-- admin ikonka  -->
+                            Admin post
+                        </span>
+                        <span class="blog_item_date"> <!-- Sana joylavommiz -->
+                            <i class="fa fa-calendar"></i> <!-- kalendar ikonka -->
+                            June 28,2023
+                        </span>
+                    </div>
+                        <h5 class="blog_item_title"> <!-- Maqolasi -->
+                            Mening maqolam
+                        </h5>
+                        <p class="blog_item_description"> <!-- Paragrafi -->
+                            Lorem ipsum dolor sit amet consectetur ad
+                        </p>
+                        <a class="blog_item_learn_more">
+                            Ko'proq o'qish
+                        </a>
+                </div>
+            </div>
+            <div class="blog_item">
+                <div class="blog_item_image"> <!-- card rasm joylavommiza -->
+                    <img src="/Image/partners/3.png" alt=" Blog 1 image">
+                </div>
+                <div class="blog_item_info">
+                    <div class="blog_item_main_info">
+                        <span class="blog_item_author"> <!-- Avtor kimligi -->
+                            <i class="fa fa-user"></i> <!-- admin ikonka  -->
+                            Admin post
+                        </span>
+                        <span class="blog_item_date"> <!-- Sana joylavommiz -->
+                            <i class="fa fa-calendar"></i> <!-- kalendar ikonka -->
+                            June 28,2023
+                        </span>
+                    </div>
+                        <h5 class="blog_item_title"> <!-- Maqolasi -->
+                            Mening maqolam
+                        </h5>
+                        <p class="blog_item_description"> <!-- Paragrafi -->
+                            Lorem ipsum dolor sit amet consectetur ad
+                        </p>
+                        <a class="blog_item_learn_more">
+                            Ko'proq o'qish
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>
+    <!-- /Blog section -->
+
+
+    <!-- Partners section-->
+    <div class="container">
+        <section id="partners" class="partners">
+            <div class="partner">
+                <img src="/Image/partners/partners2.png">
+            </div>
+            <div class="partner">
+                <img src="/Image/partners/partners3.png">
+            </div>
+            <div class="partner">
+                <img src="/Image/partners/partners4.png">
+            </div>
+            <div class="partner">
+                <img src="/Image/partners/partners5.png">
+            </div>
+            <div class="partner">
+                <img src="/Image/partners/partners6.png">
+            </div>
+        </section>
+    </div>
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_brand">
+                <img src="/Image/sr-1.png" alt="Logo">
+            </div>
+            <nav class="footer_navigation">
+                <ul class="footer_navigation_items">
+                    <li class="footer_navigation_item">
+                        <a href="#">Bosh sahifa</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer_navigation_item">
+                        <a href="#">Vlog</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer_socials">
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="footer_social">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+             <p class="footer_text">
+                Sayt web sahifasi 2023 by  Sardor Rajapov
+             </p>
+        </div>
+    </footer>
+    <!-- /Footer section -->
+
+</body>

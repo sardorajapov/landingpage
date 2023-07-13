@@ -1,0 +1,623 @@
+/* Core style */ /* - Eng asosiy stillar */
+
+/* Main section */
+
+/* .main_banner {
+    background: url(/fon2.jpg) no-repeat top center; Bu yerda seriy fon berilgan
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+} */
+.main_section {
+padding: 100px 30px;
+display: flex;
+justify-content: space-between;}  /* sal oralari ochvommiz chap tomondadgi tekslani */  
+
+
+.main_section_image { 
+    text-align: right; /* rasmni chap tomonga survommiz */
+}
+
+.main_section_welcome {
+    font-size: 16px; /* shrift kottaligi */
+    font-weight: 400;  /* qalinligi  */
+    margin-bottom: 20px; margin-bottom: 20px; /* pasdan joy tashash */
+    letter-spacing: 2px; /* harflani masofasi  */
+    color: #797979; 
+}
+
+.main_section_introduction { /* IM SARDOR STIL BERVOMMIZ */
+margin-top: 20px;
+font-size: 60px;
+font-weight: 500;   
+margin-bottom: 20px;
+color:#05364e ;
+}
+
+.main_section_positon {
+    color: #05364e;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+.main_section_social a{ /* socilniyga stil bervommiz */
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+
+}
+
+.main_section_social a:hover{ /* mishkani oborganda rangini ozgartish */
+color: #1c44e4;
+}
+
+.main_section_action { /* tugmaga stil bervommiz */ 
+    margin-top: 30px; /* tepadan ajratib turish uchun */
+    
+}
+
+/* statistics section */ 
+.statistic {
+    padding-top: 100px;
+    display: flex;
+
+}
+.statistic_item {
+   
+    width: 150px;
+    background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.statistic_number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+   /*  Gradientli berishni hohlasak yoqamz  background: linear-gradient(90deg, #3959c5 0%, #e26fb6 100%);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */  
+}
+.statistic_title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+
+/*about me section */
+.about_me {
+    padding: 100px 0; /* blokladan ajratib olamiz tepadan pasdan joy tashadk*/
+    display: flex;
+    align-items: center;
+}
+.about_me > div { /* uni ichidagi div ni 2 ga bolib olamiz */ 
+   flex: 1;
+}
+
+.about_me_image img{ /* rasmni razmerini kichraytirvommiz */
+    width: 90%;
+}
+
+.about_me_description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px; /* textni orasidagi 2 joy kotta qivommiza tepa pasdan */ 
+
+}
+
+.about_me_action {
+margin-top: 40px;}
+
+/*Servis section style */
+
+.servis {
+    padding-top: 100px; /* tepadan ajratib turish uchun  */
+
+}
+
+.servis_cards {
+    display: flex;  /* yonma yon joylashtirish uchun  */
+    justify-content: space-between;
+}
+
+.servis_card { /* servis card chaqirib harakteristikasini bervommiza */
+    padding: 60px 30px;
+    background-color: #f8faff;
+    margin-right: 3%; /* yon tarafga surish */
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.4s ease 0s; /* mishkani oborga sekinlashishini bervommiza */
+}
+ 
+.servis_card_title { /* card ichidagi web dasturlash yozuv harakteristikasi */
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.servis_card_description {
+    font-size: 14px;
+    line-height: 27px; /* liniyalar orasidagi masofa */
+    font-weight: 300;
+    color: #797979;
+}
+
+.servis_card_link { /* ilovani stillash  */
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+}
+.servis_card:hover {    /* 3 ta kardga oborganda rangi ozgarishi  */
+background-color: rgb(14, 61, 133);
+}
+
+.servis_card:hover .servis_card_title,     /* kardlani ichidagi yozuvla oq ranga ozgarishi oborganda */
+.servis_card:hover .servis_card_description,
+.servis_card:hover .servis_card_link {
+    color: #ffffff;
+}
+
+/* Clients section styles */
+.clients{
+    padding-top: 100px; /* tepagidi qisimdan ajrtib turishi uchun yopishib qomaslik uchun */
+}
+
+.clients_item {
+    display: flex;
+    align-items: center;
+}
+
+.clients_item > div {   
+    flex: 1;
+
+}
+
+.clients_item__image img{ /* Mijozimizani rasmi razmerini beramiza */
+    width: 80%;
+}
+
+.client_item__info {
+    padding-left: 50px;
+
+}
+
+.clients_item__name { /* Mijozimizani ismini razmeri beramiza */
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.client_item__position { /* Mijozimiz kim bolib ishlashi  */
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client_item__review { /* Mijomizimizdan komentariy otziv qoldirgani */
+     font-size: 14px;
+     line-height: 27px;
+     font-weight: 300;
+     color: #5b6d75;
+}
+
+.client_item__rate {  /* Yulduzchalar  */
+ color: #1c44e4;
+}
+
+/* Portfolio  section style */
+.portfolio {
+    padding: 100px 0;
+}
+.portfolio_filters {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.portfolio_filters li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.portfolio_filters li.active {
+    color: #1c44e4;
+}
+
+.portfolio_filters li:hover {
+    color: #1c44e4;
+}
+
+.portfolio_items {
+ position: relative;
+ margin-top: 60px;
+
+}
+
+.portfolio_item_1 {
+    padding-left: 0;
+}
+
+.portfolio_item_2 {
+    left: 100px;
+}
+
+.portfolio_item_4 {
+    left: 100px;
+    
+}
+
+.portfolio_item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.portfolio_item_image {
+    width: 100%;
+}
+
+
+.portfolio_item_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%; 
+    visibility: hidden;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolio_item_info {
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolio_item_info a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio_item:hover .portfolio_item_overlay {
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+    background: rgba(51, 102, 245, 0.9);  
+
+}
+
+.portfolio_item:hover .portfolio_item_info {
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+    opacity: 1;
+}
+
+/* Blog section styles */ 
+.blog {
+    padding-top: 100px; /* blogimizami pasroga tushirvommiza */ /* boshqa blogladan ajralib turish uchun */
+}
+
+.blog_items {
+    margin-top: 50px; /* rasmimizani sal pasroga tushirvommiza */
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_item {
+    overflow: hidden;
+    margin-top: 3%; /* chunki 3 ta blog item bosa 33 % bosa 99 boladi 100% kenglikga sigadi */
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+
+.blog_item:hover {
+    /* box-shadow: 0px 10px 20px rgb(5 54 77 / 30%); */
+    box-shadow: 0px 10px 20px rgb(0 0 255 / 40%) ;
+    border-radius: 25px;
+}
+
+.blog_item_image img {
+    overflow: hidden;
+}
+
+.blog_item_image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+.blog_item:hover .blog_item_info {
+    background-color: white;
+}
+
+.blog_item:hover .blog_item_image img {
+    transform: scale(1.1);
+}
+
+.blog_item_info {
+    background-color: #f8faff;
+    padding: 30px;
+    color: #6e7077;
+}
+
+.blog_item_main_info span {
+    font-size: 14px;
+    margin-right: 30px;
+    font-weight: lighter;
+}
+
+.blog_item_info i {
+    margin-right: 5px;
+}
+
+.blog_item_title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #05364d;
+    font-weight: 700;
+}
+
+.blog_item_description {
+    line-height: 27px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.blog_item_learn_more {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+}
+
+.blog_item_learn_more:hover {
+color: #ed239f;
+}
+
+
+/*Partners section styles*/
+
+.partners {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner {
+    padding: 0 30px;
+}
+
+.partner img {
+    margin-top: 50px;
+    width: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    /*Main section */ 
+    .main_section_image {
+        display: none;
+    }
+
+    .main_section > div {
+        width: 100%;
+    }
+
+    /*Statistics */ 
+    .statistic {
+        padding-top: 1rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+     /*About me section */ 
+     .about_me {
+        padding: 1.5rem 0;
+    }
+
+    .about_me > div {
+        width: 100%;
+    }
+    .about_me_image {
+        display: none;
+    }
+
+    /*Services */ 
+    .servis {
+        pad: 1.5rem 0;
+    }
+
+    .servis_card_title{
+        flex-wrap: wrap;
+    }
+
+    .servis_card {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+ 
+    /*Clients */
+    .clients {
+        padding: 1.5rem 0;
+    }
+
+    .blog_item {
+        flex-wrap: wrap;
+    }
+
+    .client_item {
+        flex-direction: column;
+    }
+
+    .client_item > div {
+        width: 100%;
+        float: none;
+    }
+
+    .blog_item {
+        flex-basis: 45%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    /*Partners */ 
+    .partners {     /* tepaga opchiqvommiza  */
+        padding: 1.5rem 0;
+}
+    .partners {
+        flex-direction: column;
+    }
+
+    .partner {
+        display: block; /* ketma ket joylashishi uchun */
+        padding: 0;
+        text-align: center; /* ortaga ovommiza hammasi */
+        margin-bottom: 10px;
+}
+
+
+
+  
+    
+
+
+
+}
+
+@media only screen and (max-width: 767px) {   /* Mobil qurilma boshi */
+/* Main section */
+    .main_section_image { /* boshidagi rasmni yoq qivommiza mobil qurilmada ochkanda */
+        display: none;
+    }
+
+.main_section_action { /* tugmalarni olib tashlavommiz mobil qurilmada ochilganda */
+    display: none;
+}
+
+.main_section > div {
+    width: 100%;
+}
+
+.main_section_welcome { /* Salom hammaga svoysvasi */
+    font-size: 10px;
+}
+.main_section_introduction { /* Sardor syostvasi  */
+    font-size: 30px;
+    color: #1c44e4;
+}
+.main_section_positon { /* Web design syostvasi  */
+font-size: 15px;
+}
+
+/* Statistic section  */
+.statistic_item {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0; /* Chetidan oppo bob qogani uchun berilvotti */
+    box-sizing: border-box; /* Chetidan oppo bob qogani uchun berilvotti */
+}
+
+/* About me section */
+.about_me {
+    padding: 1rem 0; /* about me ni teparoga opchiqvommiza  */
+}
+.about_me > div { /* about me bollariga razmer bervommiza */
+    width: 100%;
+}
+
+.about_me_image img {
+    display: none; /* Rasmmi bekitvommiza */
+}
+
+/* Services section */ 
+.servis {
+    padding: 1.5rem 0; /* Mening hizmatlarim tepadan joy tashlavommiza 1 rem 16px */
+}
+
+.servis_card {
+    flex-basis:  100%;  /* kardlaga bir hil svoysvasini bervommiza */
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/*Clients */ 
+
+.clients {
+    padding: 1.5rem 0;
+}
+.clients_item > div { /* ket ma ketligi chiroyli qildik tepadan pasga */
+    width: 100%; 
+    float: none;
+} 
+
+.clients_item__image img { /* Rasmni kickina qivommiz */
+    width: 50%;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    padding: 1.5rem 0; /* tepadaga opchiqvommiza  */
+}
+
+.portfolio_item { /* Mening ishlarim rasmlani tepadan pasga ovommiza */
+    width: 80%;
+}
+
+.portfolio_item_2,
+.portfolio_item_3,
+.portfolio_item_4{
+    position: static; /* Mening ishlarim rasmlarni tekislavommiza */
+}
+
+/*Blog*/ 
+.blog {
+    padding: 1.5rem 0; /* tepadaga opchiqvommiza  */
+}
+
+.blog_items {
+    flex-direction: column;
+}
+
+.blog_item {    /* joylashtirvommiza tepadan pasdan */
+    flex-basis: 100%;    
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+
+/*Partners */ 
+.partners {     /* tepaga opchiqvommiza  */
+    padding: 1.5rem 0;
+}
+
+.partner {
+    display: block; /* ketma ket joylashishi uchun */
+    padding: 0;
+    text-align: center; /* ortaga ovommiza hammasi */
+    margin-bottom: 10px;
+}
+
+
+
+} /* Mobil qurilma oxiri */
